@@ -1,0 +1,8 @@
+Zambia: Lusaka
+Zimbabwe: Harare
+Japan: Tokyo
+Australia: Perth
+USA: Washington DC
+Canada: Toronto
+Botswana: Gaborone
+
