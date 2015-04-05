@@ -22,7 +22,6 @@ def __init__():
 			country_name = country_name.strip()
 			city = city.strip()
 			country[country_name] = city # for example "Japan": "Tokyo"
-			print country_name
 		
 		except ValueError:
 			pass	
