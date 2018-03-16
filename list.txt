@@ -3,7 +3,7 @@ Albania:	Tirana
 Algeria: Algiers
 Andorra: Andorra la Vella
 Angola:	Luanda
-Antigua and Barbuda:	Saint John's
+Antigua AndBarbuda:	Saint John's
 Argentina:	Buenos Aires
 Armenia:	Yerevan
 Australia:	Canberra
@@ -19,7 +19,7 @@ Belize:	Belmopan
 Benin:	Porto-Novo
 Bhutan:	Thimphu
 Bolivia	La Paz (administrative): Sucre (judicial)
-Bosnia and Herzegovina: 	Sarajevo
+Bosnia AndHerzegovina: 	Sarajevo
 Botswana:	Gaborone
 Brazil:	Brasilia
 Brunei:	Bandar Seri Begawan
@@ -36,8 +36,10 @@ Chile:	Santiago
 China:	Beijing
 Colombia:	Bogotá
 Comoros:	Moroni
-Congo, Republic of the:	Brazzaville
-Congo, Democratic Republic of the:	Kinshasa
+Congo, Republic Of The:	Brazzaville
+Republic Of The Congo :	Brazzaville
+Congo, Democratic Republic Of The:	Kinshasa
+Democratic Republic Of The Congo:	Kinshasa
 Costa Rica:	San Jose
 Cote d'Ivoire:	Yamoussoukro
 Croatia:	Zagreb
@@ -142,12 +144,12 @@ Qatar:	Doha
 Romania:	Bucharest
 Russia:	Moscow
 Rwanda:	Kigali
-Saint Kitts and Nevis:	Basseterre
+Saint Kitts And Nevis:	Basseterre
 Saint Lucia:	Castries
-Saint Vincent and the Grenadines:	Kingstown
+Saint Vincent And The Grenadines:	Kingstown
 Samoa:	Apia
 San Marino:	San Marino
-Sao Tome and Principe:	São Tomé
+Sao Tome And Principe:	São Tomé
 Saudi Arabia:	Riyadh
 Senegal:	Dakar
 Serbia:	Belgrade
@@ -176,7 +178,7 @@ Thailand:	Bangkok
 Timor-Leste:	Dili
 Togo:	Lomé
 Tonga:	Nukuʻalofa
-Trinidad and Tobago:	Port of Spain
+Trinidad AndTobago:	Port of Spain
 Tunisia:	Tunis
 Turkey:	Ankara
 Turkmenistan:	Ashgabat
@@ -185,7 +187,7 @@ Uganda:	Kampala
 Ukraine:	Kyiv
 United Arab Emirates:	Abu Dhabi
 United Kingdom:	London
-United States of America:	Washington, D.C.
+United States Of America:	Washington, D.C.
 Uruguay:	Montevideo
 Uzbekistan:	Tashkent
 Vanuatu:	Port Vila
