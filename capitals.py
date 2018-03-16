@@ -1,15 +1,26 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 from sys import argv
+import argparse
 
 
-def main():
-    try:
-        user_input = argv[1]
-    except IndexError:
-        print("You need to pass in a country as a commandline option")
-        quit()
+def parse_arguments(arg):
+    # Handles Commandline input
+    PROGRAM = "capitals"
+    DESCRIPTION = "Displays capital city of specified country."
 
+    parser = argparse.ArgumentParser(
+        prog=PROGRAM, description=DESCRIPTION
+    )
+    parser.add_argument('country', help="Displays the capital of <country>",
+                        nargs='+')
+    args = parser.parse_args(arg)
+    country_data = ' '.join(args.country)
+    return country_data
+
+
+def get_list_of_countries():
+    # Generate a dictionary from country list file.
     countries = {}
 
     try:
@@ -17,25 +28,37 @@ def main():
     except IOError:
         print("Country list file could not be opened.")
         quit()
-
-    # Generate a dictionary from country list file.
-    for each_line in country_data:
-        try:
+    try:
+        for each_line in country_data:
             (country_name, capital_city) = each_line.split(':', 1)
             country_name = country_name.strip()
             capital_city = capital_city.strip()
             countries[country_name] = capital_city  # "Japan": "Tokyo"
-        except ValueError:
-            pass
+        return countries
+    except ValueError:
+        pass
+
+
+def capital(country):
+    countries = get_list_of_countries()
+    usr_country = country
 
     try:
-        if user_input.istitle():
-            print("The Capital city of %s is %s." % (user_input, countries[user_input]))
+        if usr_country.istitle():
+            print("The Capital city of %s is %s." %
+                  (usr_country, countries[usr_country]))
         else:
-            user_input = user_input.capitalize()
-            print("The Capital City of %s is %s." % (user_input, countries[user_input]))
+            usr_country = usr_country.title()
+            print("The Capital City of %s is %s." %
+                  (usr_country, countries[usr_country]))
     except:
         print("Please enter a valid country name.")
 
+
+def main(country_arg):
+    capital(parse_arguments(country_arg))
+
+
 if __name__ == "__main__":
-    main()
+    # Everything except the script name is passed to get_capital
+    main(argv[1:])
