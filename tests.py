@@ -32,7 +32,7 @@ class TestCapitals(unittest.TestCase):
         help_message = b"""usage: capitals [country]\n\nDisplays capital city of specified country.\n\npositional arguments:\n  country     Displays the capital of country.\n\noptional arguments:\n  -h, --help  show this help message and exit\n"""
 
         command_output = subprocess.check_output(["python3", "capitals.py", "-h"])
-        self.assertEqual(help_message,command_output)
+        self.assertEqual(help_message, command_output)
 
     def test_correct_return_value_returned_when_running_interactively(self):
         return_value = subprocess.check_output(["python3", "capitals.py", "Hungary"])
