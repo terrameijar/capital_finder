@@ -9,6 +9,7 @@ TODO: Add installation instructions
 
 This program can be imported into other Python programs or run from the
 commandline.
+![GIF Image showing capitals.py usage](capitals.gif)
 
 ### Running it from the commandline.
 There are two ways to run `capitals.py`.
