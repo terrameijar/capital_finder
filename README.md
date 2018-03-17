@@ -19,7 +19,8 @@ And then do:
 `$ ./capitals.py <country name>`
 
 For detailed help information:
-```bash $ ./capitals.py --help
+```bash
+ $ ./capitals.py --help
 
 usage: capitals [country]
 
