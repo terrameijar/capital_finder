@@ -5,13 +5,15 @@ import argparse
 
 TTY = False  # Flag will be set to true when running script interactively
 
+
 def parse_arguments(arg):
     # Handles Commandline input
     PROGRAM = "capitals"
     DESCRIPTION = "Displays capital city of specified country."
 
     parser = argparse.ArgumentParser(
-        prog=PROGRAM, description=DESCRIPTION
+        prog=PROGRAM, description=DESCRIPTION,
+        usage='%(prog)s [country]'
     )
     parser.add_argument('country', help="Displays the capital of country.",
                         nargs='+')
