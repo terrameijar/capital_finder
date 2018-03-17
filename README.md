@@ -1,5 +1,6 @@
 # Capitals
-Displays capital city of any country.
+Displays capital city of any country. `capitals` requires nothing more than
+a standard Python 3 installation.
 
 ## Installation
 TODO: Add installation instructions
