@@ -38,8 +38,10 @@ Colombia:	Bogotá
 Comoros:	Moroni
 Congo, Republic Of The:	Brazzaville
 Republic Of The Congo :	Brazzaville
+Republic Of Congo :	Brazzaville
 Congo, Democratic Republic Of The:	Kinshasa
 Democratic Republic Of The Congo:	Kinshasa
+Democratic Republic Of Congo:	Kinshasa
 Costa Rica:	San Jose
 Cote d'Ivoire:	Yamoussoukro
 Croatia:	Zagreb
