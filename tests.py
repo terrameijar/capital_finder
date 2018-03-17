@@ -1,6 +1,6 @@
 import unittest
-import capitals
 import subprocess
+import capitals
 
 
 class TestCapitals(unittest.TestCase):
