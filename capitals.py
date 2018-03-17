@@ -13,7 +13,7 @@ def parse_arguments(arg):
     parser = argparse.ArgumentParser(
         prog=PROGRAM, description=DESCRIPTION
     )
-    parser.add_argument('country', help="Displays the capital of <country>",
+    parser.add_argument('country', help="Displays the capital of country.",
                         nargs='+')
     args = parser.parse_args(arg)
     country_data = ' '.join(args.country)
