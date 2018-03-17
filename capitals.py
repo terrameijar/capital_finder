@@ -37,7 +37,9 @@ def get_list_of_countries():
             country_name = country_name.strip()
             capital_city = capital_city.strip()
             countries[country_name] = capital_city  # "Japan": "Tokyo"
+        country_data.close()
         return countries
+
     except ValueError:
         pass
 
