@@ -39,7 +39,8 @@ Call the `capitals.capital()` function and pass a country to it as an argument.
 The `capital()` function will return the capital of that country or a 0 if an invalid
 country was passed to it. Capitalisation does not matter.
 
-`>>> capitals.capital("Wakanda")
+``` python
+>>> capitals.capital("Wakanda")
 0
 >>> capitals.capital("Germany")
 'Berlin'
@@ -49,7 +50,7 @@ country was passed to it. Capitalisation does not matter.
 'Pyongyang'
 >>> capitals.capital("lithuania")
 'Vilnius'
-`
+```
 
 ## Contributing
 1. Fork it!
